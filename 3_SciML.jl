@@ -62,4 +62,4 @@ println("Estimated parameters: ", estimated_p)
 prob_result = ODEProblem(lotka_volterra, u0, tspan, estimated_p)
 sol_result = solve(prob_result)
 
-plot!(sol_result, LineStyle=:dashed, label=["Learnt Prey" "Learnt Predator"])
+plot!(sol_result, line=:dash, label=["Learnt Prey" "Learnt Predator"])
