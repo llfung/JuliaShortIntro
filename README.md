@@ -1,5 +1,5 @@
-# JuliaShortIntro
-A Short Introduction to Julia. 
+# A Short Introduction to Julia
+With some tutorial files. Run them in VS Code.
 
 ## Set up
 1. [Download](https://julialang.org/install/) and Install Julia
