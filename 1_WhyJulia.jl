@@ -8,7 +8,7 @@ function greet(name::String)
     println("Hello, $name")
 end
 
-function greet(n::Number)
+function greet(n::Int)
     println("The number is $n")
 end
 
@@ -31,7 +31,7 @@ println("Fibonacci(10) = ", fibonacci(10))
 α = 0.1
 β = 0.5
 θ = α + β
-
+ϕ = sin(θ)
 
 ## 4. COMPREHENSIONS - Concise and readable
 squares = [i^2 for i in 1:10]

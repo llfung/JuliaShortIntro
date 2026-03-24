@@ -44,11 +44,14 @@ end
 # Vectorisation - if you can express your code in terms of vectorised operations, it will be much faster than loops
 v = zeros(1000)
 # Slow way using loops
-for i=1:length(v)
+btime = @time for i=1:length(v)
     v[i] += 1
 end
 print("v = ", v)
 # Fast way using Broadcast operations
+function add_one(x)
+    return x + 1
+end
 v = zeros(1000)
 v .+= 1
 print("v = ", v)

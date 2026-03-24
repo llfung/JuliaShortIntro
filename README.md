@@ -9,7 +9,7 @@ A Short Introduction to Julia.
    2. Press `]` (Go into Package Manager)
    3. Type `Activate venv` (This creates a virtual env. `venv`)
    4. Now install some packages by typing `add {Pkg name}`
-      - Package used: `] add DifferentialEquations, Plots, PlotlyBase, PlotlyKaleido, Optimization, OptimizationOptimJL, OptimizationOptimisers, ForwardDiff, Zygote, ComponentArrays, SciMLSensitivity`
+      - Package used: `] add DifferentialEquations, Plots, PlotlyBase, PlotlyKaleido, Optimization, OptimizationOptimJL, OptimizationOptimisers, ForwardDiff, Zygote, ComponentArrays, SciMLSensitivity, DifferentiationInterface`
 ## Content
 
 
